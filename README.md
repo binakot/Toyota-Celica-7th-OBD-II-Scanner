@@ -1,1 +1,3 @@
-# Toyota-Celica-7th-OBD-II-Scanner
+# Toyota Celica 7th Generation OBD-II Scanner
+
+Work in progress!
