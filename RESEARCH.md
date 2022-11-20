@@ -64,12 +64,37 @@ Before 2002, J1979 referred to these services as `modes`:
 * 09 - Request vehicle information
 * 0A - Permanent Diagnostic Trouble Codes (DTCs) (Cleared DTCs)
 
+---
+
+## Hardware
+
+### ELM327
+
 The `ELM327` is a programmed microcontroller produced for translating the on-board diagnostics (OBD) interface found in most modern cars. 
 The ELM327 command protocol is one of the most popular `PC-to-OBD` interface standards and is also implemented by other vendors.
 
 [https://en.wikipedia.org/wiki/ELM327](https://en.wikipedia.org/wiki/ELM327)
 
+### STN
+
+The `STN11xx/21xx OBD Interpreter ICs` are based on the robust OBDLink® technology stack 
+and provide a fast and cost-effective way to add OBD functionality to your project. 
+All OBD interpreter ICs are fully compatible with the de facto standard ELM327 command set, 
+while outperforming the original ELM327 IC in every category: stability, performance, features and price.
+
+[https://www.obdsol.com/solutions/chips/](https://www.obdsol.com/solutions/chips/)
+
 [https://www.obdsol.com/solutions/obdlink-technology-stack/](https://www.obdsol.com/solutions/obdlink-technology-stack/)
+
+### Obduino (OBD on Arduino)
+
+The OBDuino is an in-car real-time display of various information, like speed, RPM, instant fuel consumption or average trip fuel consumption as well as others PIDs supported by the car.
+
+[https://en.wikipedia.org/wiki/OBDuino](https://en.wikipedia.org/wiki/OBDuino)
+
+[http://obduino.ca/](http://obduino.ca/)
+
+[https://github.com/Magister54/opengauge](https://github.com/Magister54/opengauge)
 
 ---
 
@@ -84,6 +109,8 @@ The ELM327 command protocol is one of the most popular `PC-to-OBD` interface sta
 Диагностический разъем `DLC3` для `OBD-II` под рулем автомобиля.
 
 Предохранитель OBD на `7.5А` в блоке предохранителей в салоне автомобиля.
+
+Протокол `ISO 9141-2`.
 
 Диагностические коды неисправности:
 * Двигатель и система впрыска топлива (EFI): 85 стр.
@@ -121,5 +148,7 @@ The ELM327 command protocol is one of the most popular `PC-to-OBD` interface sta
 
 Любой диагностический код в запоминающем устройстве электронного блока управления стирается при снятии провода с отрицательной клеммы аккумуляторной батареи. 
 Поэтому перед отключением аккумуляторной батареи необходимо прочесть диагностические коды.
+
+[https://www.drive2.ru/b/2371627/](https://www.drive2.ru/b/2371627/)
 
 ---
