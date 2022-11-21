@@ -1,3 +1,3 @@
-# Toyota Celica 7th Generation OBD-II Scanner
+# Toyota Celica VII T230 OBD Scanner
 
 Work in progress!
